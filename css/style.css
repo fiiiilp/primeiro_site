@@ -1,0 +1,242 @@
+body,
+ul,
+li,
+a {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/*nav ul li:last-child{
+    margin-right: 0;
+}*/
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+.escola {
+    background-image: url(../imagens/img_curso3.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: rgb(161, 161, 161);
+    text-align: center;
+}
+
+.escola-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.escola h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.escola p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-aprenda {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-aprenda:hover {
+    background-color: #555;
+}
+
+.cursos {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cursos h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cursos card {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+
+}
+
+.curso-card hover {
+    transform: translateY(-5px);
+}
+
+.curso-card img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.curso-card h3,
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.about {
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+    padding: 60px 0;
+}
+
+.contato h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contato p,
+span {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+.cursos {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cursos h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.curso-card hover {
+    transform: translateY(-5px);
+}
+.cursos card {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+
+}
+.curso-card h3,
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+.curso-card img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+.depoimentos-card{
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.depoimentos h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.depoimentos-card img{
+    max-width: 10%;
+    height: auto;
+    border-radius: 5px;
+    
+    border-radius: 25px;
+}
+
+    .contato-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+
+}
+.contato-card h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
